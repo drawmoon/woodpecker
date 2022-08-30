@@ -6,6 +6,6 @@ package org.woodpecker
 class ColumnExpression : Expression {
 
     override fun accept(visitor: ExpressionVisitor): StringBuilder {
-        return visitor.visit(this);
+        return visitor.visit(this)
     }
 }
